@@ -27,7 +27,7 @@ This project serves as a **hands-on reference** for understanding both theory an
 - ✅ Easy installation, configuration, and troubleshooting  
 - ⚠️ Central hub failure affects the entire network  
 
-![Star Topology](screenshots/star.png)
+![Star Topology](star.png)
 
 ---
 
@@ -36,7 +36,7 @@ This project serves as a **hands-on reference** for understanding both theory an
 - ✅ Simple setup, requires less cabling  
 - ⚠️ A backbone fault can disrupt the entire network  
 
-![Bus Topology](screenshots/bus.png)
+![Bus Topology](bus.png)
 
 ---
 
@@ -45,7 +45,7 @@ This project serves as a **hands-on reference** for understanding both theory an
 - ✅ Easy fault detection, simple structure  
 - ⚠️ Breaks in the ring disrupt communication (unless dual rings are used)  
 
-![Ring Topology](screenshots/ring.png)
+![Ring Topology](ring.png)
 
 ---
 
