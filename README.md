@@ -1,40 +1,57 @@
-# Cisco Packet Tracer – Network Topologies
+# 🌐 Cisco Packet Tracer – Network Topologies
 
 ## 📌 Overview
 
-This repository demonstrates the implementation of four fundamental network topologies using Cisco Packet Tracer: **Mesh, Star, Bus, and Ring**. Each topology is simulated in a separate `.pkt` file to help visualize how devices communicate, how data flows, and how faults impact a network.
+This repository showcases the implementation of **four fundamental network topologies** using **Cisco Packet Tracer**: **Mesh, Star, Bus, and Ring**.  
 
-Cisco Packet Tracer is a widely used simulation tool that allows students, educators, and networking enthusiasts to design, configure, and test networks without needing physical hardware. This project is a hands-on reference for understanding both the theory and practical behavior of physical topologies.
+Each topology is simulated in its own `.pkt` file, allowing you to visualize device communication, data flow, and how network faults can affect performance.  
+
+Cisco Packet Tracer is a popular simulation tool that lets students, educators, and networking enthusiasts **design, configure, and test networks virtually**, without the need for physical hardware.  
+This project serves as a **hands-on reference** for understanding both theory and practical network behavior.
 
 ---
 
 ## 🌐 Topologies Implemented
 
-### Mesh Topology
+### 🕸 Mesh Topology
 - Every device connects to every other device.  
-- Offers maximum redundancy and fault tolerance.  
-- High cabling cost and complexity.  
+- ✅ Maximum redundancy & fault tolerance  
+- ⚠️ High cabling cost & complexity  
 
-### Star Topology
+![Mesh Topology](mesh.png)
+
+---
+
+### ⭐ Star Topology
 - Devices connect to a central hub or switch.  
-- Easy to install, configure, and troubleshoot.  
-- Failure of the central hub affects the whole network.  
+- ✅ Easy installation, configuration, and troubleshooting  
+- ⚠️ Central hub failure affects the entire network  
 
-### Bus Topology
+![Star Topology](screenshots/star.png)
+
+---
+
+### 🚌 Bus Topology
 - All devices share a single backbone cable.  
-- Simple and requires less cabling.  
-- A fault in the backbone can bring down the entire network.  
+- ✅ Simple setup, requires less cabling  
+- ⚠️ A backbone fault can disrupt the entire network  
 
-### Ring Topology
-- Devices form a closed loop where data travels in one direction.  
-- Easy fault detection and simple structure.  
-- Breaks in the ring disrupt communication (unless dual rings are used).  
+![Bus Topology](screenshots/bus.png)
+
+---
+
+### 🔄 Ring Topology
+- Devices form a closed loop, data travels in one direction.  
+- ✅ Easy fault detection, simple structure  
+- ⚠️ Breaks in the ring disrupt communication (unless dual rings are used)  
+
+![Ring Topology](screenshots/ring.png)
 
 ---
 
 ## ⚙️ Tools & Requirements
-- Cisco Packet Tracer (v7.x or higher recommended)  
-- Basic understanding of IP addressing, cabling, and device configuration  
+- **Cisco Packet Tracer** (v7.x or higher recommended)  
+- Basic knowledge of **IP addressing, cabling, and device configuration**  
 
 ---
 
@@ -43,11 +60,11 @@ Cisco Packet Tracer is a widely used simulation tool that allows students, educa
 2. Open any `.pkt` file from this repository.  
 3. Assign IP addresses to devices (if not pre-configured).  
 4. Test connectivity using **Ping** or simulation mode.  
-5. Modify the topology to experiment with different setups.  
+5. Experiment with different configurations to explore network behavior.  
 
 ---
 
 ## 📖 Learning Outcomes
 - Understand the structure and function of four major network topologies.  
-- Practice building and testing networks in Cisco Packet Tracer.  
-- Compare the pros and cons of each topology for real-world applications.  
+- Practice building and testing networks virtually in Cisco Packet Tracer.  
+- Compare pros and cons of each topology for real-world networking scenarios.  
