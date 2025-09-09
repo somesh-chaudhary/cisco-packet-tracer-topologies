@@ -1,4 +1,5 @@
 Cisco Packet Tracer – Network Topologies
+
 📌 Overview
 
 This repository demonstrates the implementation of four fundamental network topologies using Cisco Packet Tracer: Mesh, Star, Bus, and Ring. Each topology is simulated in a separate .pkt file to help visualize how devices communicate, how data flows, and how faults impact a network.
